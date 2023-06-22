@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#carouselExample img{
+    height: 250px;
+    margin-top: 50px;
+}
+
+main {
+    background-image: url("../../Img/fondo.jpg");
+    background-size: cover;
+    padding-bottom: 50px;
+    font-family: var(--bs-font-monospace);
+}
+
+#Sobre-nosotros h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 3em;
+    color: white;
+}
+
+#logo{
+    text-align: center;
+}
+
+#Sobre-nosotros {
+    margin: 10em 0 10em 0;
+}
+
+#Sobre-nosotros p  {
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+
+#video {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#video video {
+    margin: 2.5em 0 2.5em 0;
+    height: 200px;
+    width: 300px;
+}
+
+#Que-ofrecemos {
+    margin: 15px;
+    text-align: center;
+    margin-bottom: 5em;
+    color: white;
+}
+
+#Que-ofrecemos h1 {
+    margin-bottom: 2em;
+}
+
+.card {
+    box-shadow: var(--bs-box-shadow);
+} 
+
+form {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#Formulario {
+    background-color: white;
+    margin: 50px auto 50px auto;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px 2px;
+}
+
+#Formulario h1 {
+    font-size: 1.3em;
+    margin: 20PX;
+}
+
+.form-control {
+    margin: auto;
+    width: 70%;
+    border: solid;
+}
+
+#Contacto {
+    margin: 15px;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+#Contacto h1 {
+    margin: 2em 0 2em 0;
+    color: white;
+}
+
+.imgL {
+    height: 100px;
+    width: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 750px) {
+
+#Que-ofrecemos {
+    margin: 50px auto 100px auto;
+    width: 80%;
+}
+
+#carouselExample img{
+    height: 500px;
+}
+
+#Contacto {
+    margin: 50px auto 100px auto;
+    width: 80%;
+}
+
+#Sobre-nosotros {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#Sobre-nosotros h1 {
+    font-size: 4em;
+    width: 100%;
+}
+
+#video video {
+    margin: 2.5em 0 2.5em 0;
+    height: 400px;
+    width: 600px;
+}
+    
+}
+
+@media screen and (min-width: 1100px) {
+
+#Formulario {
+    margin: 0 auto;
+    width: 50%;
+}
+}
+
